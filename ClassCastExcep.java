@@ -7,7 +7,7 @@ public class ClassCastExcep {
 		// Comparable number = 10;
 		// number.compareTo("10");
 		Comparable<Integer> number = 10;
-		number.compareTo(10);
+		System.out.print(number.compareTo(10));
 	}
 
 }
