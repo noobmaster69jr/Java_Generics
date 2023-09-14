@@ -7,14 +7,17 @@ public class GenericType {
 	public static void main(String[] args) {
 		// List<E>
 
-		// Argument
+		// Argument type
 		List<Integer> number = new LinkedList<>();
 		number.add(1);
-		// parameter type
-		List number2 = new LinkedList<>();
+		List<String> number2 = new LinkedList<>();
 		number2.add("hello");
 		number2.add("3");
-		number2.add(2);
+		// Map<Point, triplePoint> = parameter type
 		System.out.print(number2);
 	}
 }
+
+/*
+ * Naming Convention: E - Element N - Number K - key V - values T - type
+ */
