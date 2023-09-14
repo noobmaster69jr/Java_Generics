@@ -7,9 +7,9 @@ public class Phone {
 		this.name = name;
 	}
 
-//	@Override
-//	public String toString() {
-//		return "Phone [name=" + name + "]";
-//	}
+	@Override
+	public String toString() {
+		return "Phone [name=" + name + "]";
+	}
 
 }
